@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #e2cebd;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: medium;
+  line-height: normal;
+}
+
+h1 {
+  color: #967E76;
+  font-family: 'Raleway', sans-serif;
+  font-size: xx-large;
+  line-height: normal;
+}
+
+h2 {
+  color: #967E76;
+  font-family: 'Raleway', sans-serif;
+  font-size: xx-large;
+  line-height: normal;
+}
+
+a {
+  color: #D7C0AE;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card-white {
+  background-color: #f8f3ed;
+  border: #D7C0AE;
+  box-shadow: 0px, 0px, 30px rgb(0, 0, 0, 2);
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+}
+
+.img-circle {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  padding: 4px;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.btn-blue {
+  background-color: #e2cebd;
+  font-size: 20px;
+  color: #f8f3ed;
+  text-decoration: none;
+  padding: 12px, 16px;
+  border-radius: 4px;
+  border: #e2cebd;
+}
+
+.btn-blue:hover {
+  background-color: #A4907C;
+}
+
+.btn-blue:active {
+  background-color: #8D7B68;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+.spaced-out {
+  letter-spacing: 2px;
+}
+
+i {
+  font-size: 50px;
+}
+
+.spaced-icons {
+  margin-right: 10px;
+}
