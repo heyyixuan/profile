@@ -62,6 +62,7 @@ a:hover {
   padding: 12px, 16px;
   border-radius: 4px;
   border: #e2cebd;
+  cursor: pointer;
 }
 
 .btn-blue:hover {
